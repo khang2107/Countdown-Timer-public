@@ -43,7 +43,7 @@ Our countdown timer has the three required functionalities as well as three addi
 
 ## Create Configuration
 
-![Create-config](images/create-config.png)
+![Create-config](doc/images/create-config.png)
 
 1. Open the application.
 2. Enter Option "1" to create new configuration
@@ -65,9 +65,9 @@ Our countdown timer has the three required functionalities as well as three addi
 3. You will be prompted to enter the index of the configuration you want to export. This index begins at 0 and is based on the order that the configurations are listed to you at the Main Menu under "Current configurations:". In this example the configuration "STUDY" has an index of 0 and 'MEETING AGENDA' has an index of 1:
 4. Entering 1 will create a file called 'Meeting Agenda.csv' containing the configuration information.
 
-![Image-showing-configurations](images/Configuration-List.png)
+![Image-showing-configurations](doc/images/Configuration-List.png)
 
-![Image-showing-exported-csv](images/Exported-CSV.png)
+![Image-showing-exported-csv](doc/images/Exported-CSV.png)
 
 ## Importing from CSV
 
@@ -77,7 +77,7 @@ If you close the program, created configurations are not remembered next time yo
 2. You will be prompted to enter the name of the configuration you would like to import. This will be the name that was entered when creating the configuration initially (i.e. the csv file name without the file extension ".csv"). To import the "Meeting Configuration.csv" file we will enter "Meeting Agenda":
 3. The imported configuration will join the list of current configurations and can now be treated like any other configuration
 
-![Image-showing-imported-csv](images/Imported-CSV.png)
+![Image-showing-imported-csv](doc/images/Imported-CSV.png)
 
 ## Modify / Add / Remove Subtasks from the current configuration already created
 
@@ -106,7 +106,7 @@ If you close the program, created configurations are not remembered next time yo
 
 ### Pause
 
-![Pause Timer](./images/pause.png "Pausing timer")
+![Pause Timer](doc/images/pause.png "Pausing timer")
 
 1. The timer is running
 2. Type "p" and press ENTER key to pause the timer.
@@ -120,7 +120,7 @@ If you close the program, created configurations are not remembered next time yo
 
 ### Advance
 
-![Advance Timer](./images/advance.png "Advancing time for a task")
+![Advance Timer](doc/images/advance.png "Advancing time for a task")
 
 1. The timer is in any state (paused/running)
 2. Type "a" and press ENTER key to advance the timer.
@@ -128,7 +128,7 @@ If you close the program, created configurations are not remembered next time yo
 
 ### Extend
 
-![Extend Timer](./images/extend.png "Extending time for a task")
+![Extend Timer](doc/images/extend.png "Extending time for a task")
 
 1. The timer is in any state (paused/running)
 2. Type "e" and press ENTER key to extend the timer for a specific task.
@@ -142,11 +142,11 @@ The option to have a sound play when a timer finishes has been added to the basi
 1. On the main menu selection, enter 7 to open the sound settings selection
 2. Enter 1 to toggle the sound on or off
 
-![Sound-Menu-Image](./images/SoundMenu.png)
+![Sound-Menu-Image](doc/images/SoundMenu.png)
 
 ## Added feature: Calendar
 
-![Prompt User](./images/f4-calendar-promptUser.png "Prompting a user")
+![Prompt User](doc/images/f4-calendar-promptUser.png "Prompting a user")
 
 1. When configuration is created, enter "Y" or "N" for calendar reminder.
 2. If "Y" is entered, the configuration is saved in the calendar.
@@ -154,11 +154,11 @@ The option to have a sound play when a timer finishes has been added to the basi
 4. Enter the date the reminder will send the notification.
 5. The calendar will prompt the users to do the configurations on the day.
 
-![Notify User](./images/notifyUser.png "Notifyinging a user")
+![Notify User](doc/images/notifyUser.png "Notifyinging a user")
 
 ## Added feature: Create and Join Meeting
 
-![Alt text](images/meeting-process.png)
+![Alt text](doc/images/meeting-process.png)
 
 1. Select option "6" to enter Meeting menu.
 2. Once you are in the Meeting menu, you can create a new meeting, join, or go back to the main menu
@@ -167,4 +167,4 @@ The option to have a sound play when a timer finishes has been added to the basi
 5. To join the created meeting, enter "2" in the meeting menu and enter the details of the created meeting.
 6. Now you are in the meeting and timer will count down the time you have left for the meeting
 
-![Join Meeting](images/join-meeting.png)
+![Join Meeting](doc/images/join-meeting.png)
