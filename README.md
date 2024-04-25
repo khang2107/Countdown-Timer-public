@@ -81,7 +81,7 @@ If you close the program, created configurations are not remembered next time yo
 
 ## Modify / Add / Remove Subtasks from the current configuration already created
 
-![Modify-config](images/modify-config.png)
+![Modify-config](doc/images/modify-config.png)
 
 1. Open the application.
 2. Select option "5" after creating the configuration has been created previously.
